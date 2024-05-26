@@ -1,8 +1,7 @@
 ## **Викторија Стојанова, 213180**
 
 ## **Control Flow Graph:**
-
-https://github.com/viktorijastojanova/SI_2024_lab2_213180/assets/166872257/93dc3445-e91e-4e9b-9e97-a475d19214a4
+![CFG](https://github.com/viktorijastojanova/SI_2024_lab2_213180/assets/166872257/98898ef4-734b-4ecd-b492-d5d02441a290)
 
 ## **Цикломатска комплексност:**
 Цикломатската комплексност на дадениот код е 10. Овој резултат го добив со помош на формулата P + 1, каде што P = 9 (7 if и 2 for) + 1 = 10. P ни означува број на идентифицирани предикатни јазли во нашиот даден Java код. Цикломатската комплексност може да се најде и преку формулата E - N + 2P, каде што Е ни претставува број на врски или ребра, а N ни претставува број на јазли.
@@ -31,11 +30,11 @@ https://github.com/viktorijastojanova/SI_2024_lab2_213180/assets/166872257/93dc3
 
 ## **Тест случаи според Multiple Condition критериумот за условот if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0)== '0'):**
 ##### Постојат вкупно 8 комбинации на вредности за овие три услови:
-(True, True, True)
-(True, True, False)
-(True, False, True)
-(True, False, False)
-(False, True, True)
-(False, True, False)
-(False, False, True)
-(False, False, False)
+1. True, True, True
+2. True, True, False
+3. (True, False, True)
+4. (True, False, False)
+5. (False, True, True)
+6. (False, True, False)
+7. (False, False, True)
+8. (False, False, False)
