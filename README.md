@@ -32,9 +32,9 @@
 ##### Постојат вкупно 8 комбинации на вредности за овие три услови:
 1. True, True, True
 2. True, True, False
-3. (True, False, True)
-4. (True, False, False)
-5. (False, True, True)
-6. (False, True, False)
-7. (False, False, True)
-8. (False, False, False)
+3. True, False, True
+4. True, False, False
+5. False, True, True
+6. False, True, False
+7. False, False, True
+8. False, False, False
